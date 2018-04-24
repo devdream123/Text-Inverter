@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <header>
+        <h1>Text Inverter Tool</h1>
+    </header>
+
+    <section>
+
+        <div>
+            <input type="text" placeholder="Enter text here ..." #inputValue [(ngModel)]="inputText" />
+ 
+        </div>
+        <div>
+            <button class="btn btn-primary" (click)="doInvertion(inputText)">Invert</button>
+
+        </div>
+        <div>
+            <p>{{invertedText}}</p>
+
+        </div>
+    </section>
+   
+
+
+
+   
+
+</div>
